@@ -19,12 +19,12 @@ const RoundCard = ({ image, title }: Card) => {
 export default RoundCard;
 
 const CardContainer = styled.div`
-  width: 100px;
-  height: 100px;
+  width: 6.375rem;
+  height: 6.375rem;
   border-radius: 50%;
   overflow: hidden;
   flex-shrink: 0;
-  margin: 0 10px;
+  margin: 0.3rem;
 `;
 
 const Image = styled.img`
