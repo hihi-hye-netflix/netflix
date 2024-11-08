@@ -1,6 +1,6 @@
 'use client';
 
-import Card from './_components/RoundCard';
+import RoundCard from './_components/RoundCard';
 import styled from 'styled-components';
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <HomeContainer>
       {items.map((item, index) => (
-        <Card
+        <RoundCard
           key={index}
           image={item.image}
           title={item.title}
